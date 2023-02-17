@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Serif', serif;
+    color: white;
+}   
+
+/*------------------------------------esto es mi header------------------------------*/
+body{
+    background-image: url(../assets/pexels-tima-miroshnichenko-5846086.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 1.2em;
+}
+
+.logo{
+    position: absolute;
+
+}
+
+nav{
+    background-color: rgba(0, 0, 0, 0.671);
+    
+}
+
+.barra{
+    padding: 0;
+    margin: auto;
+    width: 50vh;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+.primerT{
+    margin: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h1{
+    font-size: 6em;
+}
+
+
+/*--------------------------------- esto es mi main------------------------------ */
+
+.info{
+    background-color: rgb(59, 59, 59);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info img{
+    margin: 2%;
+}
+
+p{
+    display: inline-block;
+}
+
+.link{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.link img{
+    margin: 5%;
+}
+
+
+/*--------------------------------esto es mi footer----------------------------------*/
+
+footer{
+    
+    background-color: rgba(0, 0, 0, 0.671);
+    font-size: 1em;
+    height: 50px;
+    text-align: center;
+    
+}
+
+/* ----------------------------galeria---------------------------*/
+
+.galeria{
+    background-color: rgba(59, 59, 59, 0.808);
+    text-align: center;
+    padding: 2%;
+}
+
+/*-------------------------formulario----------------------------*/
+
+form{
+    background-color: rgba(0, 0, 0, 0.774);
+    height: 100vh;
+    text-align: center;
+    padding: 20%;
+}
+
+iframe{
+    width: 100%;
+}
+
