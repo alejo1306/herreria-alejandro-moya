@@ -9,15 +9,10 @@
 
 /*------------------------------------esto es mi header------------------------------*/
 body{
-    background-image: url(../assets/pexels-tima-miroshnichenko-5846086.jpg);
+    background-image: url(../assets/pexels-tima-miroshnichenko-5846122.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     font-size: 1.2em;
-}
-
-.logo{
-    position: absolute;
-
 }
 
 nav{
@@ -25,93 +20,121 @@ nav{
     
 }
 
-.barra{
-    padding: 0;
-    margin: auto;
-    width: 50vh;
-    height: 10vh;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.logo{
+    border-radius: 50%;
 }
 
-a{
+.a{
+    color: white;
+    
+}   
+
+.link a{
     text-decoration: none;
-}
 
-.primerT{
-    margin: 10%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
 }
 
 h1{
     font-size: 6em;
+    text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;
+    
+     
 }
 
-
-/*--------------------------------- esto es mi main------------------------------ */
-
-.info{
-    background-color: rgb(59, 59, 59);
-    text-align: center;
+.primerT{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    height: 50vh;
+}
+/*------------------------final----------------------------*/
+
+/*------------------------css general-----------------------------*/
+.my-container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  
+
+.contenido{
+    background-color: rgba(59, 59, 59, 0.747);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5% 0%;
+
 }
 
-.info img{
-    margin: 2%;
+.contenido p{
+    margin: 4%;
 }
 
-p{
-    display: inline-block;
+.contenido img{
+    margin: 4%;
+    width: 50%;
+    border-radius: 20px;
 }
 
 .link{
-    text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 6%;
 }
 
-.link img{
-    margin: 5%;
-}
-
-
-/*--------------------------------esto es mi footer----------------------------------*/
-
-footer{
-    
+.footer{
     background-color: rgba(0, 0, 0, 0.671);
-    font-size: 1em;
-    height: 50px;
-    text-align: center;
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+/*-------------------------------final-------------------------------*/
+
+/*--------------------------galeria----------------------------*/
+
+.galeria img{
+    width: 100%;
+    margin: 4%;
+    border-radius: 20px;
 }
 
-/* ----------------------------galeria---------------------------*/
+.FG{
+    background-color: rgba(59, 59, 59, 0.747);
+    border-radius: 30px;
+}
+/*--------------------------final----------------------------*/
 
-.galeria{
-    background-color: rgba(59, 59, 59, 0.808);
+/*--------------------form--------------------------*/
+
+h2{
     text-align: center;
-    padding: 2%;
+    margin: 4%;
 }
 
-/*-------------------------formulario----------------------------*/
+.servicios{
+    color: red;
+}
 
-form{
-    background-color: rgba(0, 0, 0, 0.774);
-    height: 100vh;
-    text-align: center;
-    padding: 20%;
+.form{
+    padding: 5%;
+    background-color: rgba(59, 59, 59, 0.747);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 iframe{
     width: 100%;
 }
 
+@media screen and (max-width: 768px) {
+    h1 {
+      font-size: 4em;
+    }
+    .contenido{
+        flex-wrap: wrap-reverse;
+    }
+  }

@@ -4,46 +4,81 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/9fe2dd80a9.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/style.css">
     <link rel="icon" href="../assets/ico.ico">
-    <title>Document</title>
+    <title>Herreria M&H</title>
 </head>
 <body>
     <header>
-        <div class="logo">
-            <a href="../pages/index.html"><img src="../assets/logo.jpg" height="105px" alt=""></a>
-        </div>
-        <nav>
-            <div class="barra">
-                <a href="./index.html">Inicio</a></li>
-                <a href="./nosotros.html">Nosotros</a>
-                <a href="#">Servicios</a>
-                <a href="./galeria.html">Galeria</a>
-                <a href="./contactos.html">Contactos</a>
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="./index.html"><img src="../assets/logo.jpg" alt="" class="logo"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="fa-solid fa-bars"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active a" aria-current="page" href="./index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link a" href="./nosotros.html">Nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link a" href="#">Servicios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link a" href="./galeria.html">Galeria</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link a" href="./contactos.html">Contactos</a>
+                </ul>
+              </div>
             </div>
-        </nav>
-        <div class="fondoT">
+          </nav>
+        <div class="primerT">
             <h1>Servicios</h1>
         </div>
     </header>
+
+
     <main>
-        <div class="info">
-            <img src="../assets/img prueba.png"  alt="">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-            <img src="../assets/img prueba.png"  alt="">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-            <img src="../assets/img prueba.png"  alt="">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. .</p>
-        </div>
-        <div class="link">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, earum. <a href="">presupuesto</a></p>
+        <div class="container-fluid my-container-fluid">
+            <h2 class="servicios">Herreria de obra</h2>
+            <div class="contenido">
+              <p>Realizamos diversos trabajos de herrería de obra . Diseños nuevos de (Puertas, ventanas, portones y rejas). Techos y estrcturas de hierro - Portones corredizos y levadizos de frente de rejas - Escaleras estructurales - Trabajos de herrería y soldaduras en general. </p>
+              <img src="../assets/obra (1).jpg"  alt="">
+            </div>
+            <h2 class="servicios">Herreria Artistica</h2>
+            <div class="contenido">
+              <img src="../assets/herreria artesanal.jpg"  alt="">
+              <p>Trabajos a medida en herrería artística. Diseños de puertas y ventanas de estilo. Frentes de rejas. Todo tipo de estructuras de hierro. </p>
+            </div>
+            <h2 class="servicios">Herreria de Diseño</h2>
+            <div class="contenido">
+              <h2></h2>
+              <p>Diseño y fabricación de productos de alta calidad en herrería. Manufacturación de objetos de hierro (decoración, iluminación, herrajes, herramientas)</p>
+              <img src="../assets/sillas.jpg"  alt="">
+            </div>
         </div>
     </main>
-    <footer>
+
+    <section>
+        <div class="link">
+            <h2>Haz tu presupuesto <a href="./contactos.html">Aqui</a></h2>
+        </div>
+    </section>
+
+
+    <footer class="container-fluid footer">
+        <a href="#">Arriba</a>
         <p>Copyright c 2023 | Aviso Legal</p>
-        <a href="">Arriba</a>
         <p>Pagina hecha por : Alejandro Moya</p>
     </footer>
+
+    <script src="../js/bootstrap.bundle.min.js"></script>
  </body>
 </body>
 </html>

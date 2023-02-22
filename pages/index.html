@@ -4,43 +4,69 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/9fe2dd80a9.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/style.css">
     <link rel="icon" href="../assets/ico.ico">
-    <title>Document</title>
+    <title>Herreria M&H</title>
 </head>
 <body>
     <header>
-        <nav>
-            <div class="barra">
-                <a href="#">Inicio</a></li>
-                <a href="./nosotros.html">Nosotros</a>
-                <a href="./servicios.html">Servicios</a>
-                <a href="./galeria.html">Galeria</a>
-                <a href="./contactos.html">Contactos</a>
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="./index.html"><img src="../assets/logo.jpg" alt="" class="logo"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="fa-solid fa-bars"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active a" aria-current="page" href="#">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link a" href="./nosotros.html">Nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link a" href="./servicios.html">Servicios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link a" href="./galeria.html">Galeria</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link a" href="./contactos.html">Contactos</a>
+                </ul>
+              </div>
             </div>
-        </nav>
-        <div class="primerT">
-            <h1>Herreria</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae provident a nihil nobis, asperiores debitis vitae assumenda architecto, repellendus consequatur numquam! Rem rerum dicta veniam atque odit optio ab quia!</p>
+          </nav>
+        <div>
+            <div class="primerT">
+                <h1>Herreria M&H</h1>
+                <p>Con mas de 40años de Experiencia en el trabajo</p>
+            </div>
         </div>
     </header>
 
 
     <main>
-        <div class="info">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, iste!</p>
-            <img src="../assets/img prueba.png" height="300" width="300"  alt="">
-        </div>
-        <div class="link">
-            <img src="../assets/img prueba.png" height="300" width="300"  alt="">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, voluptas.</p>
+        <div class="container-fluid my-container-fluid">
+            <div class="contenido">
+                <p>Consigue todo tipo de trabajo en hierros, Rejas, Puertas, Adornos, Ventanas, Bases para camas y Mas. </p>
+                <img src="../assets/reja.jpeg"  alt="">
+            </div>
+            <div class="contenido">
+                <p>Conoce mas de nuestra trayectoria y los servicios que ofrecemos <a href="./nosotros.html">Aqui</a></p>
+                <img src="../assets/puertaDeHierro.jpg"  alt="">
+            </div>
         </div>
     </main>
+    
 
-    <footer>
+    <footer class="container-fluid footer">
+        <a href="#">Arriba</a>
         <p>Copyright c 2023 | Aviso Legal</p>
-        <a href="">Arriba</a>
         <p>Pagina hecha por : Alejandro Moya</p>
     </footer>
+
+    <script src="../js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

@@ -4,41 +4,74 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/9fe2dd80a9.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/style.css">
     <link rel="icon" href="../assets/ico.ico">
-    <title>Document</title>
+    <title>Herreria M&H</title>
  </head>
  <body>
     <header>
-        <div class="logo">
-            <a href="../pages/index.html"><img src="../assets/logo.jpg" height="105px" alt=""></a>
-        </div>
-        <nav>
-            <div class="barra">
-                <a href="./index.html">Inicio</a></li>
-                <a href="#">Nosotros</a>
-                <a href="./servicios.html">Servicios</a>
-                <a href="./galeria.html">Galeria</a>
-                <a href="./contactos.html">Contactos</a>
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="./index.html"><img src="../assets/logo.jpg" alt="" class="logo"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="fa-solid fa-bars"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active a" aria-current="page" href="./index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link a" href="#">Nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link a" href="./servicios.html">Servicios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link a" href="./galeria.html">Galeria</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link a" href="./contactos.html">Contactos</a>
+                </ul>
+              </div>
             </div>
-        </nav>
-        <div class="fondoT">
+          </nav>
+        <div class="primerT">
             <h1>Nosotros</h1>
         </div>
     </header>
+
+
     <main>
-        <div class="info">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
-            <img src="../assets/img prueba.png"  alt="">
-        </div>
-        <div class="link">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat fuga nam assumenda laudantium reiciendis iure veritatis officia officiis! Quis nihil temporibus quidem sint aperiam debitis harum voluptas hic recusandae enim?</p>
+        <div class="container-fluid my-container-fluid">
+            <div class="contenido">
+                <p>M&H HERRERIA es una empresa que cuenta con una vasta experiencia en el rubro de la herrería artistica y herrería de obra, cuyas principales características son las de saber escuchar e interpretar con rapidez y de una manera eficaz los requerimientos de nuestros clientes, teniendo siempre la respuesta exacta de acuerdo a las exigencias que día a día se presentan.
+                <br>
+                <br>
+                  M&H HERRERIA cuenta para la realización de trabajos de Herrería artística y Herrería de obra con taller de forjado, donde se confeccionan modelos originales y estándar, además de la confección de herramientas para la construcción (cortafierros, puntas, barretas, etc.), diseños especiales en hierro y estructuras especiales.
+                  <br>
+                  <br>
+                  Cabe destacar que nuestra empresa puede desarrollar cualquier diseño de herrería artistica o de obra según las necesidades de nuestros clientes combinando inclusive, hierro con otros materiales (madera, vidrio, aluminio etc). Contamos con una gran variedad de diseños y productos en hierro como ser muebles, lámparas, rejas, portones, techos, etc.
+                </p>
+                <img src="../assets/quienesSomos (1).jpg"  alt="">
+            </div>
         </div>
     </main>
-    <footer>
+
+    <section>
+        <div class="link">
+            <h2>Haz tu presupuesto <a href="./contactos.html">Aqui</a></h2>
+        </div>
+    </section>
+
+    <footer class="container-fluid footer">
+        <a href="#">Arriba</a>
         <p>Copyright c 2023 | Aviso Legal</p>
-        <a href="">Arriba</a>
         <p>Pagina hecha por : Alejandro Moya</p>
     </footer>
+
+    <script src="../js/bootstrap.bundle.min.js"></script>
  </body>
  </html>
