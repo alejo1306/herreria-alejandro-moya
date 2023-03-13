@@ -1,0 +1,146 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&family=Playfair+Display&display=swap');
+@import "variables";
+@import "map";
+@import "mixin";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: map-get($colores, blanco);
+}
+
+body{
+    background-image: url(../assets/pexels-tima-miroshnichenko-5846122.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 1.2em;
+    font-family: 'Playfair Display', serif;
+}
+    /*---------------Cabezera general-----------*/
+    header{
+        nav{
+            background-color: $bg-primario;
+            .logo{
+                border-radius: 50%;
+            }
+            
+            .a{
+                color: map-get($colores, blanco);
+                
+            }   
+
+            .link a{
+                text-decoration: none;
+            
+            }
+        }
+        .primerT{
+            display: flex;
+            align-items: map-get($flex , center);
+            justify-content: map-get($flex , center);
+            flex-direction: map-get($flex , column);
+            height: 50vh;
+
+            h1{
+                font-size: 6em;
+                text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;
+                font-family: 'Playfair Display', serif;
+                
+            }
+        }
+    }
+    /*------------------final-----------------*/
+    
+    /*------------------CSS ganeral-----------------*/
+
+    main{
+        .my-container-fluid {
+            padding-right: 0;
+            padding-left: 0;
+            .contenido{
+                background-color: $bg-secundario;
+                display: flex;
+                align-items: map-get($flex , center);
+                justify-content: map-get($flex , center);
+                margin: 5% 0%;
+                p{
+                    margin: 4%;
+                }
+                img{
+                    @include estilo-img (4%, 50%, 20px)
+                }
+            }
+        }
+    }
+
+    .footer{
+        background-color: $bg-primario;
+        display: flex;
+        flex-direction: map-get($flex , column);
+        align-items: map-get($flex , center);
+        justify-content: map-get($flex , center);
+    
+    }
+
+    .link{
+        display: flex;
+        align-items: map-get($flex , center);
+        justify-content: map-get($flex , center);
+        margin: 6%;
+    }
+
+    .servicios{
+        color: map-get($colores, rojo);
+    }
+/*----------------------------final---------------------------*/
+
+/*----------------------------galeria--------------------------*/
+
+    main{
+        .FG{
+            background-color: $bg-secundario;
+            border-radius: 30px;
+            img{
+                @include estilo-img (4%, 100%, 20px) 
+            }
+        }
+    }
+/*----------------------------final---------------------------*/
+
+/*----------------------------form---------------------------*/
+
+    main{
+        h2{
+            text-align: center;
+            margin: 4%;
+        }
+        .form{
+            padding: 5%;
+            background-color: $bg-secundario;
+            display: flex;
+            align-items: map-get($flex , center);
+            justify-content: map-get($flex , center);
+        }        
+    }
+    
+    iframe{
+        width: 100%;
+    }
+/*----------------------------form---------------------------*/ 
+
+
+/*----------------------responsive--------------------*/
+@media screen and (max-width: 768px) {
+    h1 {
+      font-size: 4em;
+    }
+    .contenido{
+        flex-wrap: wrap-reverse;
+    }
+  }
+
+/*---------------------------final----------------------*/
+

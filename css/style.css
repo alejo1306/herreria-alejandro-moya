@@ -1,142 +1,106 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&family=Playfair+Display&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&family=Playfair+Display&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    color: white;
-}   
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&family=Playfair+Display&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white; }
 
-/*------------------------------------esto es mi header------------------------------*/
-body{
-    background-image: url(../assets/pexels-tima-miroshnichenko-5846122.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-size: 1.2em;
-    font-family: 'Playfair Display', serif;
-}
+body {
+  background-image: url(../assets/pexels-tima-miroshnichenko-5846122.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 1.2em;
+  font-family: 'Playfair Display', serif; }
 
-nav{
-    background-color: rgba(0, 0, 0, 0.671);
-    
-}
+/*---------------Cabezera general-----------*/
+header nav {
+  background-color: rgba(0, 0, 0, 0.671); }
+  header nav .logo {
+    border-radius: 50%; }
+  header nav .a {
+    color: white; }
+  header nav .link a {
+    text-decoration: none; }
 
-.logo{
-    border-radius: 50%;
-}
-
-.a{
-    color: white;
-    
-}   
-
-.link a{
-    text-decoration: none;
-
-}
-
-h1{
+header .primerT {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 50vh; }
+  header .primerT h1 {
     font-size: 6em;
     text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;
-    font-family: 'Playfair Display', serif;
-     
-}
+    font-family: 'Playfair Display', serif; }
 
-.primerT{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    height: 50vh;
-}
-/*------------------------final----------------------------*/
-
-/*------------------------css general-----------------------------*/
-.my-container-fluid {
-    padding-right: 0;
-    padding-left: 0;
-  }
-  
-
-.contenido{
+/*------------------final-----------------*/
+/*------------------CSS ganeral-----------------*/
+main .my-container-fluid {
+  padding-right: 0;
+  padding-left: 0; }
+  main .my-container-fluid .contenido {
     background-color: rgba(59, 59, 59, 0.747);
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 5% 0%;
+    margin: 5% 0%; }
+    main .my-container-fluid .contenido p {
+      margin: 4%; }
+    main .my-container-fluid .contenido img {
+      margin: 4%;
+      width: 50%;
+      border-radius: 20px; }
 
-}
+.footer {
+  background-color: rgba(0, 0, 0, 0.671);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
 
-.contenido p{
+.link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 6%; }
+
+.servicios {
+  color: red; }
+
+/*----------------------------final---------------------------*/
+/*----------------------------galeria--------------------------*/
+main .FG {
+  background-color: rgba(59, 59, 59, 0.747);
+  border-radius: 30px; }
+  main .FG img {
     margin: 4%;
-}
-
-.contenido img{
-    margin: 4%;
-    width: 50%;
-    border-radius: 20px;
-}
-
-.link{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 6%;
-}
-
-.footer{
-    background-color: rgba(0, 0, 0, 0.671);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
-}
-/*-------------------------------final-------------------------------*/
-
-/*--------------------------galeria----------------------------*/
-
-.galeria img{
     width: 100%;
-    margin: 4%;
-    border-radius: 20px;
-}
+    border-radius: 20px; }
 
-.FG{
-    background-color: rgba(59, 59, 59, 0.747);
-    border-radius: 30px;
-}
-/*--------------------------final----------------------------*/
+/*----------------------------final---------------------------*/
+/*----------------------------form---------------------------*/
+main h2 {
+  text-align: center;
+  margin: 4%; }
 
-/*--------------------form--------------------------*/
+main .form {
+  padding: 5%;
+  background-color: rgba(59, 59, 59, 0.747);
+  display: flex;
+  align-items: center;
+  justify-content: center; }
 
-h2{
-    text-align: center;
-    margin: 4%;
-}
+iframe {
+  width: 100%; }
 
-.servicios{
-    color: red;
-}
-
-.form{
-    padding: 5%;
-    background-color: rgba(59, 59, 59, 0.747);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-iframe{
-    width: 100%;
-}
-
+/*----------------------------form---------------------------*/
+/*----------------------responsive--------------------*/
 @media screen and (max-width: 768px) {
-    h1 {
-      font-size: 4em;
-    }
-    .contenido{
-        flex-wrap: wrap-reverse;
-    }
-  }
+  h1 {
+    font-size: 4em; }
+  .contenido {
+    flex-wrap: wrap-reverse; } }
+
+/*---------------------------final----------------------*/
