@@ -51,6 +51,17 @@ body{
                 font-family: 'Playfair Display', serif;
                 text-align: center;
             }
+            /*----------------------responsive--------------------*/
+    @media screen and (max-width: 768px) {
+    h1 {
+      font-size: 3em;
+    }
+    .contenido{
+        flex-wrap: wrap-reverse;
+    }
+  }
+
+/*---------------------------final----------------------*/
         }
     }
     /*------------------final-----------------*/
@@ -137,15 +148,5 @@ body{
 /*----------------------------form---------------------------*/ 
 
 
-/*----------------------responsive--------------------*/
-@media screen and (max-width: 768px) {
-    h1 {
-      font-size: 4em;
-    }
-    .contenido{
-        flex-wrap: wrap-reverse;
-    }
-  }
 
-/*---------------------------final----------------------*/
 

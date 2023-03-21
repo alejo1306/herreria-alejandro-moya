@@ -30,12 +30,19 @@ header .primerT {
   justify-content: center;
   flex-direction: column;
   height: 50vh;
-  margin-top: 10%; }
+  margin-top: 10%;
+  /*----------------------responsive--------------------*/
+  /*---------------------------final----------------------*/ }
   header .primerT h1 {
     font-size: 6em;
     text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;
     font-family: 'Playfair Display', serif;
     text-align: center; }
+  @media screen and (max-width: 768px) {
+    header .primerT h1 {
+      font-size: 3em; }
+    header .primerT .contenido {
+      flex-wrap: wrap-reverse; } }
 
 /*------------------final-----------------*/
 /*------------------CSS ganeral-----------------*/
@@ -102,11 +109,3 @@ iframe {
   width: 100%; }
 
 /*----------------------------form---------------------------*/
-/*----------------------responsive--------------------*/
-@media screen and (max-width: 768px) {
-  h1 {
-    font-size: 4em; }
-  .contenido {
-    flex-wrap: wrap-reverse; } }
-
-/*---------------------------final----------------------*/
