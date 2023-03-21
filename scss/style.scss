@@ -43,12 +43,13 @@ body{
             justify-content: map-get($flex , center);
             flex-direction: map-get($flex , column);
             height: 50vh;
+            margin-top: 10%;
 
             h1{
                 font-size: 6em;
                 text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;
                 font-family: 'Playfair Display', serif;
-                
+                text-align: center;
             }
         }
     }
@@ -66,7 +67,7 @@ body{
                 display: flex;
                 align-items: map-get($flex , center);
                 justify-content: map-get($flex , center);
-                margin: 5% 0%;
+                margin: 10% 0%;
                 p{
                     margin: 4%;
                     text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;
