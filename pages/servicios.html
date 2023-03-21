@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <script src="https://kit.fontawesome.com/9fe2dd80a9.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="icon" href="../assets/ico.ico">
     <title>Herreria M&H</title>
@@ -15,7 +16,7 @@
     <header>
         <nav class="navbar navbar-expand-lg ">
             <div class="container-fluid">
-              <a class="navbar-brand" href="./index.html"><img src="../assets/logo.jpg" alt="" class="logo"></a>
+              <a class="navbar-brand" href="../pages/servicios.html"><img src="../assets/logo.jpg" alt="" class="logo"></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="fa-solid fa-bars"></span>
               </button>
@@ -49,18 +50,17 @@
     <main>
         <div class="container-fluid my-container-fluid">
             <h2 class="servicios">Herreria de obra</h2>
-            <div class="contenido">
+            <div class="contenido"data-aos="fade-up" data-aos-duration="3000">
               <p>Realizamos diversos trabajos de herrería de obra . Diseños nuevos de (Puertas, ventanas, portones y rejas). Techos y estrcturas de hierro - Portones corredizos y levadizos de frente de rejas - Escaleras estructurales - Trabajos de herrería y soldaduras en general. </p>
               <img src="../assets/obra (1).jpg"  alt="">
             </div>
             <h2 class="servicios">Herreria Artistica</h2>
-            <div class="contenido">
+            <div class="contenido"data-aos="fade-up" data-aos-duration="3000">
               <img src="../assets/herreria artesanal.jpg"  alt="">
               <p>Trabajos a medida en herrería artística. Diseños de puertas y ventanas de estilo. Frentes de rejas. Todo tipo de estructuras de hierro. </p>
             </div>
             <h2 class="servicios">Herreria de Diseño</h2>
-            <div class="contenido">
-              <h2></h2>
+            <div class="contenido"data-aos="fade-up" data-aos-duration="3000">
               <p>Diseño y fabricación de productos de alta calidad en herrería. Manufacturación de objetos de hierro (decoración, iluminación, herrajes, herramientas)</p>
               <img src="../assets/sillas.jpg"  alt="">
             </div>
@@ -84,6 +84,10 @@
 <!-------------------------------------------Fianl--------------------------------------------------->
 
     <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
  </body>
 </body>
 </html>

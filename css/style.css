@@ -41,13 +41,15 @@ main .my-container-fluid {
   padding-right: 0;
   padding-left: 0; }
   main .my-container-fluid .contenido {
-    background-color: rgba(59, 59, 59, 0.747);
+    background: #5d5d5d;
+    background: linear-gradient(0deg, rgba(93, 93, 93, 0.860382) 0%, rgba(0, 0, 0, 0.891194) 100%);
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5% 0%; }
     main .my-container-fluid .contenido p {
-      margin: 4%; }
+      margin: 4%;
+      text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000; }
     main .my-container-fluid .contenido img {
       margin: 4%;
       width: 50%;
@@ -72,7 +74,8 @@ main .my-container-fluid {
 /*----------------------------final---------------------------*/
 /*----------------------------galeria--------------------------*/
 main .FG {
-  background-color: rgba(59, 59, 59, 0.747);
+  background: #5d5d5d;
+  background: linear-gradient(0deg, rgba(93, 93, 93, 0.860382) 0%, rgba(0, 0, 0, 0.891194) 100%);
   border-radius: 30px; }
   main .FG img {
     margin: 4%;
@@ -87,7 +90,8 @@ main h2 {
 
 main .form {
   padding: 5%;
-  background-color: rgba(59, 59, 59, 0.747);
+  background: #5d5d5d;
+  background: linear-gradient(0deg, rgba(93, 93, 93, 0.860382) 0%, rgba(0, 0, 0, 0.891194) 100%);
   display: flex;
   align-items: center;
   justify-content: center; }

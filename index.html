@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <script src="https://kit.fontawesome.com/9fe2dd80a9.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="icon" href="./assets/ico.ico">
     <title>Herreria M&H</title>
@@ -15,7 +16,7 @@
     <header>
         <nav class="navbar navbar-expand-lg ">
             <div class="container-fluid">
-              <a class="navbar-brand" href="index.html"><img src="./assets/logo.jpg" alt="" class="logo"></a>
+              <a class="navbar-brand" href="#"><img src="./assets/logo.jpg" alt="" class="logo"></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="fa-solid fa-bars"></span>
               </button>
@@ -49,14 +50,19 @@
 
 <!-------------------------------------------Contenido--------------------------------------------------->
     <main>
-        <div class="container-fluid my-container-fluid">
-            <div class="contenido">
-              <p>Consigue todo tipo de trabajo en hierros, Rejas, Puertas, Adornos, Ventanas, Bases para camas y Mas. </p>
+        <div class="container-fluid my-container-fluid" >
+            <div class="contenido" data-aos="fade-up" data-aos-duration="3000">
+              <div>              
+                <p>Consigue todo tipo de trabajo en hierros, Rejas, Puertas, Adornos, Ventanas, Bases para camas y mas.
+                no dudes en dejar volar tu imaginacion, lo que tu puedas imaginar en hierros nosotro lo podemos hacer</p>
+              </div>
               <img src="./assets/reja.jpeg"  alt="">
             </div>
-            <div class="contenido">
+            <div class="contenido" data-aos="fade-up" data-aos-duration="3000">
               <img src="./assets/puertaDeHierro.jpg"  alt="">
-              <p>Conoce mas de nuestra trayectoria y los servicios que ofrecemos <a href="./pages/nosotros.html">Aqui</a></p>
+              <div>
+                <p>Empreza metalurgica con muchos años de experiencia en el rubro, gente muy capaz y bien preparada Conoce mas de nuestra trayectoria y los servicios que ofrecemos <a href="./pages/nosotros.html">Aqui</a></p>
+              </div>
             </div>
         </div>
     </main>
@@ -72,5 +78,9 @@
 <!-------------------------------------------Final--------------------------------------------------->
 
     <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
